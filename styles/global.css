@@ -1,0 +1,61 @@
+:root {
+  --sm: 0.875rem;
+  --md: 1rem;
+  --lg: 1.125rem;
+  --xl: 1.5rem;
+  --1xl: 2rem;
+  --2xl: 3rem;
+  --title: 'PT Serif', serif;
+  --black-500: #151515;
+  --black-300: #181818;
+  --gray-100: #fafafa;
+  --gray-200: #D6D6D6;
+  --gray-500: #AEAEAE;
+  --gray-900: #202020;
+  --orange-500: #FA7201;
+  --orange-900: rgba(255, 120, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--black-500);
+  color: var(--gray-100);
+  padding: 0 2rem;
+}
+
+input,
+button,
+textarea {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--md);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--title)
+}
+
+h1 {
+  font-size: var(--1xl);
+}
